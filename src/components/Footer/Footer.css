@@ -1,0 +1,21 @@
+.footer {
+  /*background-image: linear-gradient(rgb(0, 110, 89), rgb(0, 65, 35)); */
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+}
+
+.footer__container {
+  height: 100%;
+  display: flex;
+  padding: 0 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__signature {
+  margin-right: auto;
+  width: 30%;
+  height: 80%;
+  background: center / 20% no-repeat url("../../assets/jh-web-dev__logo_lg.png");
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: 400; /* Regular weight */
+  src: url("../vendor/fonts/Inconsolata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: 300; /* Light weight */
+  src: url("../vendor/fonts/Inconsolata-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: 500; /* Medium weight */
+  src: url("../vendor/fonts/Inconsolata-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: 600; /* SemiBold weight */
+  src: url("../vendor/fonts/Inconsolata-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: 700; /* Bold weight */
+  src: url("../vendor/fonts/Inconsolata-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  font-weight: 400; /* Regular weight */
+  src: url("../vendor/fonts/Silkscreen-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  font-weight: 700; /* Bold weight */
+  src: url("../vendor/fonts/Silkscreen-Bold.ttf") format("truetype");
+}
