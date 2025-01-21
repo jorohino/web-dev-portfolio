@@ -9,7 +9,7 @@ function About() {
         <p className="about__text">
           The transition from a career in education to software engineering has
           been one of the most challenging yet rewarding experiences of my life.
-          My background as an academic and high school history teacher have
+          My background in academia and as a high school history teacher have
           shaped my ability to understand complex systems, communicate
           effectively, and create accessible, engaging materials -- all of which
           now guide my approach to development. As a full-stack web developer, I

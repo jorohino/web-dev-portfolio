@@ -1,7 +1,7 @@
 .navigation {
   background-image: linear-gradient(rgb(0, 65, 35), rgb(0, 110, 89));
   width: 100%;
-  height: clamp(8vh, 10vh, 12vh);
+  height: clamp(9vh, 13vh, 15vh);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +59,8 @@
 @media screen and (max-width: 420px) {
   .navigation__container {
     padding: 0 1.2rem;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .navigation__logo img {

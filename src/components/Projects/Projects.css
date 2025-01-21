@@ -1,0 +1,103 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 3vh 0;
+  border-top: 0.2rem solid rgba(0, 28, 15, 0.2);
+}
+
+.projects__title {
+  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
+  font-weight: 700;
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  color: rgb(244, 122, 95);
+  margin: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 110, 89, 0.1);
+  padding: 2rem;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 90%;
+  padding: 0;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.projects__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fff;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 0;
+  width: clamp(275px, 20vw, 30vw);
+  height: 45vh;
+  flex-shrink: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.projects__card:hover {
+  border-color: rgb(0, 146, 119);
+  border-radius: 10px;
+}
+
+.projects__card_vmrt {
+  background-image: url("/assets/vmrt.PNG");
+  background-position: center;
+}
+
+.projects__card_wtwr {
+  background-image: url("/assets/wtwr.PNG");
+}
+
+.projects__card_atus {
+  background-image: url("/assets/atus.png");
+}
+
+.projects__card-info {
+  background-color: #fff;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.projects__card h4 {
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
+  text-align: center;
+  background-color: rgba(244, 122, 95, 0.8);
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.projects__card p {
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: clamp(0.6rem, 1vw, 1rem);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: left;
+  align-self: center;
+}

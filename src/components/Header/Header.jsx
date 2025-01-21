@@ -14,9 +14,7 @@ function Header() {
           <p className="header__skills">
             React.js | Node.js | Express.js | TypeScript
           </p>
-          <p className="header__description">
-            Building Accessible and Engaging Web Experiences for Everyday Users
-          </p>
+          <p className="header__description">Located in: Central Connecticut</p>
         </div>
         <img
           className="header__image"
