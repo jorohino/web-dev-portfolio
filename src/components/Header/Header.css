@@ -17,6 +17,7 @@
   border-right: 0.15em solid rgb(0, 28, 15);
   white-space: nowrap;
   letter-spacing: 0.15em;
+  width: 19ch;
   animation: typing 3.5s steps(26, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -97,7 +98,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 19ch;
   }
 }
 @keyframes blink-caret {
