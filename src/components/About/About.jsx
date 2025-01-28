@@ -25,67 +25,70 @@ function About() {
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/html.svg"
+              src={`${import.meta.env.BASE_URL}assets/html.svg`}
             />
             <p>HTML</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/css.svg"
+              src={`${import.meta.env.BASE_URL}assets/css.svg`}
             />
             <p>CSS</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/javascript.svg"
+              src={`${import.meta.env.BASE_URL}assets/javascript.svg`}
             />
             <p>JavaScript</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/react.svg"
+              src={`${import.meta.env.BASE_URL}assets/react.svg`}
             />
             <p>React.js</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/node.svg"
+              src={`${import.meta.env.BASE_URL}assets/node.svg`}
             />
             <p>Node.js</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/express.svg" />
+            <img
+              className="about__list-img"
+              src={`${import.meta.env.BASE_URL}assets/express.svg`}
+            />
             <p>Express.js</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/mongodb.svg"
+              src={`${import.meta.env.BASE_URL}assets/mongodb.svg`}
             />
             <p>MongoDB</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/git.svg"
+              src={`${import.meta.env.BASE_URL}assets/git.svg`}
             />
             <p>Git</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/github.svg"
+              src={`${import.meta.env.BASE_URL}assets/github.svg`}
             />
             <p>GitHub</p>
           </li>
           <li className="about__list-item">
             <img
               className="about__list-img"
-              src="/web-dev-portfolio/assets/gcp.svg"
+              src={`${import.meta.env.BASE_URL}assets/gcp.svg`}
             />
             <p>Google Cloud Platform</p>
           </li>

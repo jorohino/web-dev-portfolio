@@ -1,3 +1,4 @@
+/* Projects Section: General Styles */
 .projects {
   display: flex;
   flex-direction: column;
@@ -7,52 +8,56 @@
   border-top: 0.2rem solid rgba(0, 28, 15, 0.2);
 }
 
+/* Section Title */
 .projects__title {
-  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
-  font-weight: 700;
-  font-size: clamp(1rem, 2.5vw, 3rem);
-  color: rgb(244, 122, 95);
   margin: 0;
   padding-bottom: 1rem;
   text-align: center;
+  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  font-weight: 700;
+  color: rgb(244, 122, 95);
 }
 
+/* Projects Container */
 .projects__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: rgba(0, 110, 89, 0.1);
   padding: 2rem;
+  background-color: rgba(0, 110, 89, 0.1);
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
 }
 
+/* Project List */
 .projects__list {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   width: 90%;
   padding: 0;
-  justify-content: space-around;
   list-style: none;
+  justify-content: space-around;
 }
 
+/* Individual Project Cards */
 .projects__card {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: #fff;
-  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
-  border: 2px solid #fff;
-  border-radius: 10px;
-  padding: 0;
   width: clamp(275px, 20vw, 30vw);
   height: 45vh;
-  flex-shrink: 1;
+  padding: 0;
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
+  flex-shrink: 1;
   transition: border-color 0.3s ease;
 }
 
@@ -61,6 +66,7 @@
   border-radius: 10px;
 }
 
+/* Specific Cards with Backgrounds */
 .projects__card_vmrt {
   background-image: url("/assets/vmrt.PNG");
   background-position: center;
@@ -74,30 +80,33 @@
   background-image: url("/assets/atus.png");
 }
 
+/* Card Information */
 .projects__card-info {
   background-color: #fff;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
 }
 
+/* Card Title */
 .projects__card h4 {
-  font-family: "Inconsolata", "Roboto Mono", monospace;
-  font-weight: 600;
-  font-size: clamp(0.8rem, 2vw, 1.5rem);
-  text-align: center;
-  background-color: rgba(244, 122, 95, 0.8);
-  padding: 0.5rem 1rem;
   margin: 0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
+  font-weight: 600;
+  background-color: rgba(244, 122, 95, 0.8);
 }
 
+/* Card Description */
 .projects__card p {
-  font-family: "Inconsolata", "Roboto Mono", monospace;
-  font-weight: 600;
-  font-size: clamp(0.6rem, 1vw, 1rem);
-  line-height: 1.5;
   margin: 0;
   padding: 0.5rem;
   width: 100%;
   text-align: left;
   align-self: center;
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-size: clamp(0.6rem, 1vw, 1rem);
+  font-weight: 600;
+  line-height: 1.5;
 }

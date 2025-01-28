@@ -1,36 +1,41 @@
+/* General Header Styles */
 .header {
-  text-align: center;
-  padding: 6.5vh 10vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  padding: 6.5vh 10vw;
   gap: 1.5rem;
   color: rgb(0, 28, 15);
 }
 
+/* Intro Animation */
 .header__intro {
-  font-family: "Inconsolata", "Roboto Mono", monospace;
-  font-weight: 700;
-  font-size: clamp(1.5rem, 5vw, 4rem);
-  margin: 0 auto;
+  display: inline-block;
   overflow: hidden;
-  border-right: 0.15em solid rgb(0, 28, 15);
   white-space: nowrap;
-  letter-spacing: 0.15em;
   width: 19ch;
+  margin: 0 auto;
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  border-right: 0.15em solid rgb(0, 28, 15);
   animation: typing 3.5s steps(26, end), blink-caret 0.75s step-end infinite;
 }
 
+/* Container Styles */
 .header__container {
-  margin: 0 10vw 0 auto;
-  max-width: 80%;
-  font-family: "Inconsolata", "Roboto Mono", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 10vw 0 auto;
+  max-width: 80%;
+  font-family: "Inconsolata", "Roboto Mono", monospace;
   gap: 2rem;
 }
 
+/* Author Information Section */
 .header__author-info {
   display: flex;
   flex-direction: column;
@@ -40,35 +45,42 @@
 }
 
 .header__name {
-  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
-  font-weight: 700;
-  font-size: clamp(1.25rem, 3vw, 4rem);
-  color: rgb(244, 122, 95);
-  text-align: center;
   margin: 0;
+  text-align: center;
+  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
+  font-size: clamp(1.25rem, 3vw, 4rem);
+  font-weight: 700;
+  color: rgb(244, 122, 95);
 }
 
 .header__role {
-  font-size: clamp(1rem, 3vw, 2rem);
   margin: 0;
+  font-size: clamp(1rem, 3vw, 2rem);
 }
 
 .header__skills,
 .header__description {
+  margin: 0;
   font-size: clamp(0.8rem, 2vw, 1.2rem);
   line-height: 1.5;
-  margin: 0;
 }
 
 .header__skills {
-  color: rgb(244, 122, 95);
   font-weight: 700;
+  color: rgb(244, 122, 95);
 }
 
+.header__description {
+  font-style: italic;
+  text-emphasis: center;
+}
+
+/* Anchor Links */
 .header a {
-  background: transparent;
+  display: inline-block;
   border: 2px solid transparent;
   border-radius: 5px;
+  background: transparent;
   cursor: pointer;
   transition: color 0.3s ease, background-color 0.3s ease,
     border-color 0.3s ease;
@@ -80,19 +92,16 @@
   border-radius: 5px;
 }
 
-.header__description {
-  font-style: italic;
-  text-emphasis: center;
-}
-
+/* Profile Image */
 .header__image {
+  display: block;
   max-width: clamp(12rem, 40vw, 20rem);
   height: auto;
-  display: block;
   border-radius: 50%;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
 }
 
+/* Animations */
 @keyframes typing {
   from {
     width: 0;
@@ -101,6 +110,7 @@
     width: 19ch;
   }
 }
+
 @keyframes blink-caret {
   from,
   to {
@@ -111,6 +121,7 @@
   }
 }
 
+/* Responsive Design */
 @media screen and (max-width: 475px) {
   .header__container {
     flex-direction: column;

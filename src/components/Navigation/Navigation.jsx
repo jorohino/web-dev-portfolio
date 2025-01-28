@@ -7,7 +7,7 @@ function Navigation() {
       <div className="navigation__container">
         <div className="navigation__logo">
           <img
-            src="/web-dev-portfolio/assets/jh-web-dev__logo_sm.png"
+            src={`${import.meta.env.BASE_URL}assets/jh-web-dev__logo_sm.png`}
             alt="JRH Web Dev Logo"
           />
         </div>

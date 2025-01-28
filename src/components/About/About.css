@@ -1,13 +1,15 @@
+/* About Section: General Styles */
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: clamp(9vh, 13vh, 15vh) 10vw;
-  border-top: 0.2rem solid rgba(0, 28, 15, 0.2);
   gap: 2rem;
   align-items: flex-start;
   justify-content: space-evenly;
+  padding: clamp(9vh, 13vh, 15vh) 10vw;
+  border-top: 0.2rem solid rgba(0, 28, 15, 0.2);
 }
 
+/* Individual Sections */
 .about__section {
   display: flex;
   flex-direction: column;
@@ -17,42 +19,46 @@
   height: 100%;
   padding: 1rem 3rem;
   gap: 1rem;
+  text-align: center;
   background-color: rgba(0, 110, 89, 0.1);
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  text-align: center;
 }
 
+/* Section Titles */
 .about__title {
-  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
-  font-weight: 700;
-  font-size: clamp(1rem, 2.5vw, 3rem);
-  color: rgb(244, 122, 95);
   margin: 0;
+  font-family: "Silkscreen", "Courier New", "Lucida Console", monospace;
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  font-weight: 700;
+  color: rgb(244, 122, 95);
 }
 
+/* Text Content */
 .about__text {
-  font-family: "Inconsolata", "Roboto Mono", monospace;
-  font-weight: 500;
-  font-size: clamp(0.8rem, 2vw, 1.2rem);
-  line-height: 1.5;
   margin: 0;
   width: 100%;
   text-align: left;
   align-self: center;
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
+/* List of Items */
 .about__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: clamp(0.6rem, 1rem, 1.2rem);
   max-width: 90%;
+  padding: 0 0 2rem 0;
   list-style: none;
   justify-content: center;
-  padding: 0 0 2rem 0;
   border-bottom: 0.2rem solid rgba(0, 28, 15, 0.2);
 }
 
+/* Individual List Items */
 .about__list-item {
   display: flex;
   flex-direction: column;
@@ -69,16 +75,18 @@
 .about__list-item p {
   margin: 0;
   padding: 0;
-  text-decoration: bold;
   font-size: clamp(0.8rem, 1.5vw, 1rem);
+  text-decoration: bold;
 }
 
+/* Footer Section */
 .about__section-footer {
   display: flex;
   flex-direction: column;
   font-style: italic;
 }
 
+/* Responsive Design: Medium Screens */
 @media screen and (max-width: 1358px) {
   .about {
     display: flex;
@@ -91,6 +99,7 @@
   }
 }
 
+/* Responsive Design: Small Screens */
 @media screen and (max-width: 515px) {
   .about__section {
     padding: 0.8rem 2rem;

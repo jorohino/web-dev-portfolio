@@ -15,13 +15,13 @@ function Header() {
             React.js | Node.js | Express.js | TypeScript
           </p>
           <p className="header__description">Located in: Central Connecticut</p>
-          <a href="/web-dev-portfolio/assets/resume.pdf">
+          <a href={`${import.meta.env.BASE_URL}assets/resume.pdf`}>
             <p className="header__skills">[ Download resume ]</p>
           </a>
         </div>
         <img
           className="header__image"
-          src="/web-dev-portfolio/assets/author.jpg"
+          src={`${import.meta.env.BASE_URL}assets/author.jpg`}
           alt="Image of Joshua Hinostroza"
         />
       </div>
