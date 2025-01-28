@@ -9,9 +9,15 @@ function Navigation() {
           <img src="/assets/jh-web-dev__logo_sm.png" alt="JRH Web Dev Logo" />
         </div>
         <div className="navigation__btn-container">
-          <button className="navigation__btn">About</button>
-          <button className="navigation__btn">Projects</button>
-          <button className="navigation__btn">Contact</button>
+          <a href="#about">
+            <button className="navigation__btn">About</button>
+          </a>
+          <a href="#projects">
+            <button className="navigation__btn">Projects</button>
+          </a>
+          <a href="#contact">
+            <button className="navigation__btn">Contact</button>
+          </a>
         </div>
       </div>
     </nav>

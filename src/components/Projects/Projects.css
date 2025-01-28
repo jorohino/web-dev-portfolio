@@ -3,7 +3,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 3vh 0;
+  padding: clamp(9vh, 13vh, 15vh) 0;
   border-top: 0.2rem solid rgba(0, 28, 15, 0.2);
 }
 

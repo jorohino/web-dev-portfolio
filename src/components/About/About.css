@@ -1,7 +1,7 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 3vh 10vw;
+  padding: clamp(9vh, 13vh, 15vh) 10vw;
   border-top: 0.2rem solid rgba(0, 28, 15, 0.2);
   gap: 2rem;
   align-items: flex-start;

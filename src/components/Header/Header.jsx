@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <h1 className="header__intro">Hello! I'm...</h1>
       <div className="header__container">
         <div className="header__author-info">
@@ -15,6 +15,9 @@ function Header() {
             React.js | Node.js | Express.js | TypeScript
           </p>
           <p className="header__description">Located in: Central Connecticut</p>
+          <a href="/assets/resume.pdf">
+            <p className="header__skills">[ Download resume ]</p>
+          </a>
         </div>
         <img
           className="header__image"

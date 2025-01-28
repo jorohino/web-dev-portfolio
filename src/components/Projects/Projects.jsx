@@ -3,9 +3,9 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="projects">
-      <h3 className="projects__title">Projects</h3>
+    <section className="projects" id="projects">
       <div className="projects__container">
+        <h3 className="projects__title">Projects</h3>
         <ul className="projects__list">
           <li className="projects__card projects__card_vmrt">
             <div className="projects__card-info">

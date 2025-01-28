@@ -12,7 +12,12 @@
   font-family: "Inconsolata", "Roboto Mono", monospace;
   font-weight: 700;
   font-size: clamp(1.5rem, 5vw, 4rem);
-  margin: 0 auto 0 10vw;
+  margin: 0 auto;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(0, 28, 15);
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(26, end), blink-caret 0.75s step-end infinite;
 }
 
 .header__container {
@@ -59,6 +64,21 @@
   font-weight: 700;
 }
 
+.header a {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.header a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(244, 122, 95, 0.5);
+  border-radius: 5px;
+}
+
 .header__description {
   font-style: italic;
   text-emphasis: center;
@@ -70,6 +90,24 @@
   display: block;
   border-radius: 50%;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 28, 15);
+  }
 }
 
 @media screen and (max-width: 475px) {

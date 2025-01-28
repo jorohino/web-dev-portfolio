@@ -20,27 +20,33 @@
     url("../../assets/jh-web-dev__logo_lg.png");
 }
 
-.footer__btn {
-  background: center / contain no-repeat;
-  width: clamp(1rem, 3rem, 5rem);
-  height: clamp(1rem, 3rem, 5rem);
-  border: none;
+.footer__top-btn {
+  font-family: "Inconsolata", "Roboto Mono", monospace;
+  font-weight: 400;
+  color: #fff;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease;
+  text-align: center;
 }
 
-.footer__btn:hover {
-  filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.5));
+.footer__top-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
 }
 
-.footer__btn_email {
-  background-image: url("/assets/email.svg");
+.footer__top-btn:active {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.footer__btn_github {
-  background-image: url("/assets/github.svg");
-}
-
-.footer__btn_linkedin {
-  background-image: url("/assets/linkedin.svg");
+@media screen and (max-width: 420px) {
+  .footer__top-btn {
+    font-size: clamp(0.8rem, 1.2vw, 1.4rem);
+  }
 }
