@@ -23,23 +23,38 @@ function About() {
         <h3 className="about__title">Tech Stack</h3>
         <ul className="about__text about__list">
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/html.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/html.svg"
+            />
             <p>HTML</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/css.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/css.svg"
+            />
             <p>CSS</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/javascript.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/javascript.svg"
+            />
             <p>JavaScript</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/react.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/react.svg"
+            />
             <p>React.js</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/node.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/node.svg"
+            />
             <p>Node.js</p>
           </li>
           <li className="about__list-item">
@@ -47,19 +62,31 @@ function About() {
             <p>Express.js</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/mongodb.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/mongodb.svg"
+            />
             <p>MongoDB</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/git.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/git.svg"
+            />
             <p>Git</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/github.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/github.svg"
+            />
             <p>GitHub</p>
           </li>
           <li className="about__list-item">
-            <img className="about__list-img" src="/assets/gcp.svg" />
+            <img
+              className="about__list-img"
+              src="/web-dev-portfolio/assets/gcp.svg"
+            />
             <p>Google Cloud Platform</p>
           </li>
         </ul>

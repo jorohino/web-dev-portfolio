@@ -17,7 +17,7 @@
   width: clamp(100px, 15%, 150px);
   height: 100%;
   background: center / contain no-repeat
-    url("../../assets/jh-web-dev__logo_lg.png");
+    url("/web-dev-portfolio/assets/jh-web-dev__logo_lg.png");
 }
 
 .footer__top-btn {

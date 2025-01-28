@@ -6,7 +6,10 @@ function Navigation() {
     <nav className="navigation">
       <div className="navigation__container">
         <div className="navigation__logo">
-          <img src="/assets/jh-web-dev__logo_sm.png" alt="JRH Web Dev Logo" />
+          <img
+            src="/web-dev-portfolio/assets/jh-web-dev__logo_sm.png"
+            alt="JRH Web Dev Logo"
+          />
         </div>
         <div className="navigation__btn-container">
           <a href="#about">
