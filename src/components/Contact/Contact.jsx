@@ -9,9 +9,9 @@ function Contact() {
         <div className="contact__links-container">
           <div className="contact__item contact__item_email">
             <p>
-              Email me:<br></br> jorohino@gmail.com
+              Email me:<br></br> contact@jrhweb.dev
             </p>
-            <a href="mailto:jorohino@gmail.com">
+            <a href="mailto:contact@jrhweb.dev">
               <button />
             </a>
           </div>
